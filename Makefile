@@ -7,8 +7,6 @@
     SELF_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
     HEXFILE = ./first_test.hex
-    ELFFILE = /home/geek-tn/Desktop/YO/STM32-with-no-IDE/output/first_test.elf
-
 
     CROSS_COMPILE ?= arm-none-eabi- 
     export CC = $(CROSS_COMPILE)gcc 
