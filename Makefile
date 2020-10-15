@@ -75,7 +75,6 @@
     export OPENOCD_ERASE_CMDS
 
 
-    OPENOCD_RUN_CMDS = '' 
     OPENOCD_RUN_CMDS += -c 'reset halt' 
     OPENOCD_RUN_CMDS += -c 'sleep 10' 
     OPENOCD_RUN_CMDS += -c 'reset run' 
@@ -84,7 +83,6 @@
     export OPENOCD_RUN_CMDS 
 
 
-    OPENOCD_DEBUG_CMDS = '' 
     OPENOCD_DEBUG_CMDS += -c 'halt' 
     OPENOCD_DEBUG_CMDS += -c 'sleep 10' 
 
